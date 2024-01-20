@@ -1,0 +1,139 @@
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/TimeSheet_date"
+        android:layout_width="336dp"
+        android:layout_height="56dp"
+        android:background="@drawable/topbar"
+        android:hint="Date (e.g., yyyy-mm-dd)"
+        android:textColor="#101010"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Time:"
+        android:textColor="#FFFCFC"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/startTime"
+        android:layout_width="341dp"
+        android:layout_height="58dp"
+        android:background="@drawable/topbar"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Select start time"
+        android:textColor="#101010"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End Time:"
+        android:textColor="#FFFCFC"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/endTime"
+        android:layout_width="332dp"
+        android:layout_height="58dp"
+        android:background="@drawable/topbar"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Select end time"
+        android:textColor="#101010"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="#FFFCFC"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/Descriptions"
+        android:layout_width="327dp"
+        android:layout_height="60dp"
+        android:background="@drawable/topbar"
+        android:hint="Enter Goal"
+        android:textColor="#101010"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minmum_Goal"
+        android:textColor="#FFFCFC"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/minGoal"
+        android:layout_width="322dp"
+        android:layout_height="50dp"
+        android:background="@drawable/topbar"
+        android:hint="Enter Goal"
+        android:textColor="#101010"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum_Goal"
+        android:textColor="#FFFCFC"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/MaxGoal"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
+        android:background="@drawable/topbar"
+        android:hint="Enter Goal"
+        android:textColor="#101010"
+        android:textSize="24sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/TimeSheet_Catagories"
+        android:layout_width="318dp"
+        android:layout_height="54dp"
+        android:background="@drawable/topbar"
+        android:hint="Select category"
+        android:textColor="#101010"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/EnterSheetButton"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="Add Entry" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Timer" />
+
+    <Button
+        android:id="@+id/SheetsButton"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="Timesheets" />
+
+    <TextView
+        android:id="@+id/hoursText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/square"
+        android:text="Hours:"
+        android:textSize="34sp"/>
+
+</LinearLayout>
